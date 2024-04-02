@@ -51,6 +51,7 @@ public class Cart {
                     System.out.println("Inserisci la memoria: ");
                     int memory = scanner.nextInt();
                     scanner.nextLine();
+                    // collego l'oggetto creato all'array cart e alla variabile index
                     cart[index++] = new Smartphone(code, name, brand, price, iva, code_imei, memory);
                     break;
                 case "televisore":
