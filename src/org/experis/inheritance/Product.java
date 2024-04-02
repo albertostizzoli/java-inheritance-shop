@@ -57,6 +57,6 @@ public class Product {
 
     // Metodo per ottenere una stringa formattata dei dettagli del prodotto
     public String detailsProduct() {
-        return "Codice: " + code + ", Nome: " + name + ", Marca: " + brand + ", Prezzo: " + price + "€, IVA: " + iva * 100 + "%";
+        return "Codice: " + code + ", Nome: " + name + ", Marca: " + brand + ", Prezzo: " + price + "€, IVA: " + iva + "%";
     }
 }
