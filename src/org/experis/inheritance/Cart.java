@@ -10,7 +10,7 @@ public class Cart {
         // Messaggio di benvenuto e istruzioni per l'inserimento dei prodotti
         System.out.println("Benvenuto nel carrello! Inserisci i prodotti desiderati. Digita 'fine' quando hai finito.");
 
-        // Inizializzazione di un array di oggetti Product con capacità massima 100 per il carrello
+        // Inizializzazione di un array di oggetti Product
         Product[] cart = new Product[10];
 
         // Variabile per tenere traccia dell'indice corrente nel carrello
