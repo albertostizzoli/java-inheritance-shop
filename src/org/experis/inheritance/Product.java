@@ -1,4 +1,4 @@
 package org.experis.inheritance;
 
-public class Prodotto {
+public class Product {
 }
