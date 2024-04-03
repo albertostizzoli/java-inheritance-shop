@@ -11,13 +11,13 @@ public class Cart {
         System.out.println("Benvenuto nel carrello! Inserisci i prodotti desiderati. Digita 'fine' quando hai finito.");
 
         // Inizializzazione di un array di oggetti Product
-        Product[] cart = new Product[10];
+        Product[] cart = new Product[3];
 
         // Variabile per tenere traccia dell'indice corrente nel carrello
         int index = 0;
 
         // Ciclo per l'inserimento dei prodotti nel carrello
-        while (true) {
+        while (index < cart.length) {
             // Richiesta del tipo di prodotto da inserire
             System.out.println("Inserisci il tipo di prodotto (Smartphone, Televisore, Cuffie) o 'fine' per terminare: ");
             String typeProduct = scanner.nextLine();
