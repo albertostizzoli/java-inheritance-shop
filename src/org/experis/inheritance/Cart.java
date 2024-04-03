@@ -51,7 +51,7 @@ public class Cart {
                     System.out.println("Inserisci la memoria: ");
                     int memory = scanner.nextInt();
                     scanner.nextLine();
-                    // collego l'oggetto creato all'array cart e alla variabile index
+                    // creo un nuovo oggetto e lo collego all'indice corrente nel carrello
                     cart[index++] = new Smartphone(code, name, brand, price, iva, code_imei, memory);
                     break;
                 case "televisore":
@@ -84,7 +84,7 @@ public class Cart {
             System.out.println(cart[i].detailsProduct() + ", Prezzo con IVA: " + cart[i].priceIva());
         }
 
-        // Chiusura dello scanner per evitare memory leak
+        // Chiusura dello scanner
         scanner.close();
     }
 }

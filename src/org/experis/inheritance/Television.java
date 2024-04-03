@@ -28,6 +28,11 @@ public class Television extends Product{
     public void setSmart(boolean smart) {
         this.smart = smart;
     }
+
+    @Override
+    public String detailsProduct(){
+        return super.detailsProduct() + " Dimensioni = " + dimensions + " Smart = " + (smart  ? "true" : "false");
+    }
 }
 
 

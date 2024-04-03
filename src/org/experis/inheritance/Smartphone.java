@@ -28,6 +28,11 @@ public class Smartphone extends Product {
     public void setMemory(int memory) {
         this.memory = memory;
     }
+
+    @Override
+    public String detailsProduct(){
+        return super.detailsProduct() + " Codice IMEI = " + code_imei + " Memoria = " + memory + " GB";
+    }
 }
 
 
